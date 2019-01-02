@@ -124,9 +124,9 @@ export default function Welcome ({ selectCodeSnippet }) {
   return (
     <Container>
       <Info>
-        <a href='https://tylermcginnis.com'>
+        {/* <a href='https://tylermcginnis.com'>
           <Logo src='https://tylermcginnis.com/images/logo-only.png' alt='TylerMcGinnis.com logo' />
-        </a>
+        </a> */}
         <Header>JavaScript Visualizer</Header>
         <Subheader>A tool for visualizing <span>Execution Context</span>, <span>Hoisting</span>, <span>Closures</span>, and <span>Scopes</span> in JavaScript</Subheader>
         <SocialBadges />
@@ -173,8 +173,8 @@ export default function Welcome ({ selectCodeSnippet }) {
       <div style={{width: '100%', background: '#efefef'}}>
         <Disclosure>
           <div>
-            <p><b>This was created for our <a href='https://tylermcginnis.com/courses/advanced-javascript/'>Advanced JavaScript course</a>.</b></p>
-            <p>It's Beta AF. I'm working on ES6 support and lots of <a href='https://github.com/tylermcginnis/noname/issues'>bug fixes</a>.</p>
+            {/* <p><b>This was created for our <a href='https://tylermcginnis.com/courses/advanced-javascript/'>Advanced JavaScript course</a>.</b></p>
+            <p>It's Beta AF. I'm working on ES6 support and lots of <a href='https://github.com/tylermcginnis/noname/issues'>bug fixes</a>.</p> */}
           </div>
         </Disclosure>
       </div>
